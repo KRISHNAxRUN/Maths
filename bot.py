@@ -5,6 +5,10 @@ BOT_TOKEN = "8405058082:AAFyfgpmbec8iTUpfnPDhxUqKe3L9Zfr6RM"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
+        # 👇 Invite Button
+        [InlineKeyboardButton("👫 Invite", url="https://t.me/mathsolutionmkr")],
+
+        # 👇 Exercise Buttons
         [InlineKeyboardButton("📘 Ex 1.1", url="https://youtu.be/nd8-akvdnIw?si=ZWA2qQPetHCBpJd5")],
         [InlineKeyboardButton("📘 Ex 1.2", url="https://youtu.be/uuKHJS8zudE?si=u1pXkePQJIsVxA1_")],
         [InlineKeyboardButton("📘 Ex 1.3", url="https://youtu.be/ccMvTsevjpo?si=Og8SxPgsXCXEQLrS")],
