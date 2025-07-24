@@ -25,7 +25,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE): keyboard = 
     [InlineKeyboardButton("📘 Ex 7.3", url="https://youtu.be/XXEZvx84e9E?si=pqcPr14SnUylEQcG")],
 ]
 reply_markup = InlineKeyboardMarkup(keyboard)
-await update.message.reply_text("📚 *9th Class Maths NCERT Exercise Videos:*
+await update.message.reply_text("📚 9th Class Maths NCERT Exercise Videos:")
 
 नीचे से कोई भी Exercise चुनें:", reply_markup=reply_markup)
 
